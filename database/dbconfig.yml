@@ -1,0 +1,5 @@
+development:
+  dialect: mysql
+  datasource:  root:root@tcp(pre-kakeibo-db:3306)/pre-kakeibo?charset=utf8mb4&collation=utf8mb4_general_ci&parseTime=true
+  dir: migrations
+  table: migrations
